@@ -1,0 +1,89 @@
+# Hardhat files
+cache/
+artifacts/
+deployments/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IDE - JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Test coverage
+coverage/
+coverage.json
+.coverage_contracts/
+.coverage_cache/
+
+# Hardhat TypeChain
+typechain/
+typechain-types/
+
+# Hardhat gas reporter
+gasReporterOutput.json
+
+# Hardhat cache
+.hardhat/
+
+# Temporary files
+*.log
+*.tmp
+tmp/
+
+# Build files
+dist/
+build/
+
+# Contract artifacts (optional, comment out if you want to commit them)
+# artifacts/
+# cache/
+
+# Flatten contracts (if using hardhat-flattener)
+flattened/
+
+# Test files temp
+test/temp/
+
+# Scripts output
+scripts/output/
+
+# Lock files (uncomment if you want to ignore)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Local Hardhat Network
+localhost/
+
+# Compiler downloads
+.compiler_downloads/
