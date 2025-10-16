@@ -1,0 +1,15 @@
+8nBMfUO4.D4BSBN57BRDX5xZ2AcMV3CkKcNi5T5lK
+
+0x88a591cbd665e76920330e70685662778031077fc6ce2e352cc7fe4c67f3c94e
+
+PRIVATE_KEY=0x88a591cbd665e76920330e70685662778031077fc6ce2e352cc7fe4c67f3c94e
+
+
+
+AarnaVaultBridge - DeBrdge integration for bridginhg between eth and Hyperevm, USDC from engine to HEVM at time of deposit and Hype to Eth USDC at time of withdrawal
+HyperCoreEVMBridge - transfer of funds between Hypercore and Hyperevm
+hyperlend -  integration of hyperlend (lending market) which has markets that allow to supply to get yield
+HyperSwap - HyperEVM native DEX fro swapping tokens in HyperEVM itself
+
+Hypercore - for Trading 
+HyperEVM - for building DApps

@@ -1,0 +1,18 @@
+{
+  "network": "localhost",
+  "timestamp": "2025-10-13T10:54:39.036Z",
+  "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+  "contracts": {
+    "HyperlendAutoVault": {
+      "address": "0x51c2E51BB6C404C52fDeFA58a97C9A0279F0326e",
+      "hyperlendPool": "0x00A89d7a5A02160f20150EbEA7a2b5E4879A1A8b",
+      "dataProvider": "0x5481bf8d3946E6A3168640c1D7523eB59F055a29",
+      "oracle": "0xC9Fb4fbE842d57EAc1dF3e641a281827493A630e"
+    }
+  },
+  "supportedAssets": {
+    "USDT0": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+    "WHYPE": "0x5555555555555555555555555555555555555555",
+    "wstHYPE": "0x94e8396e0869c9F2200760aF0621aFd240E1CF38"
+  }
+}

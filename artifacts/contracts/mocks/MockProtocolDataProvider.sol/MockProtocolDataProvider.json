@@ -1,0 +1,139 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "MockProtocolDataProvider",
+  "sourceName": "contracts/mocks/MockProtocolDataProvider.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "getReserveConfigurationData",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "decimals",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "ltv",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "liquidationThreshold",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "liquidationBonus",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "reserveFactor",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bool",
+          "name": "usageAsCollateralEnabled",
+          "type": "bool"
+        },
+        {
+          "internalType": "bool",
+          "name": "borrowingEnabled",
+          "type": "bool"
+        },
+        {
+          "internalType": "bool",
+          "name": "stableBorrowRateEnabled",
+          "type": "bool"
+        },
+        {
+          "internalType": "bool",
+          "name": "isActive",
+          "type": "bool"
+        },
+        {
+          "internalType": "bool",
+          "name": "isFrozen",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "getReserveData",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "availableLiquidity",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "totalStableDebt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "totalVariableDebt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "liquidityRate",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "variableBorrowRate",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "stableBorrowRate",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "averageStableBorrowRate",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "liquidityIndex",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "variableBorrowIndex",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint40",
+          "name": "lastUpdateTimestamp",
+          "type": "uint40"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b506101cc806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c806335ea6a751461003b5780633e150141146100e3575b600080fd5b61008d610049366004610166565b64e8d4a51000600064746a5288006a7c13bc4b2c133c560000006aa56fa5b99019a5c800000083806b033b2e3c9fd0803ce800000080429193959799509193959799565b604080519a8b5260208b0199909952978901969096526060880194909452608087019290925260a086015260c085015260e084015261010083015264ffffffffff16610120820152610140015b60405180910390f35b6101126100f1366004610166565b6006611f406121346129046103e86001806000818193959799509193959799565b604080519a8b5260208b01999099529789019690965260608801949094526080870192909252151560a0860152151560c0850152151560e084015215156101008301521515610120820152610140016100da565b60006020828403121561017857600080fd5b81356001600160a01b038116811461018f57600080fd5b939250505056fea2646970667358221220aa5e0eca89dc9a7e3ba62c4e62e590ef0f9f1907b9f7f9558c722e107d5db48964736f6c63430008140033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c806335ea6a751461003b5780633e150141146100e3575b600080fd5b61008d610049366004610166565b64e8d4a51000600064746a5288006a7c13bc4b2c133c560000006aa56fa5b99019a5c800000083806b033b2e3c9fd0803ce800000080429193959799509193959799565b604080519a8b5260208b0199909952978901969096526060880194909452608087019290925260a086015260c085015260e084015261010083015264ffffffffff16610120820152610140015b60405180910390f35b6101126100f1366004610166565b6006611f406121346129046103e86001806000818193959799509193959799565b604080519a8b5260208b01999099529789019690965260608801949094526080870192909252151560a0860152151560c0850152151560e084015215156101008301521515610120820152610140016100da565b60006020828403121561017857600080fd5b81356001600160a01b038116811461018f57600080fd5b939250505056fea2646970667358221220aa5e0eca89dc9a7e3ba62c4e62e590ef0f9f1907b9f7f9558c722e107d5db48964736f6c63430008140033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
